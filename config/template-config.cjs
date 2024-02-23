@@ -37,7 +37,9 @@ const TEMPLATE_CONFIG = [
       // `
       `🗓️{{date.DATA}}
 
-      💕今天是我们在一起的第{{love_day.DATA}}天
+      💕今天是我们相识的第{{love_day.DATA}}天
+
+      {{birthday_message.DATA}}
       
       ☁️今日{{city.DATA}}天气：{{weather.DATA}}
 
@@ -49,7 +51,10 @@ const TEMPLATE_CONFIG = [
 
       {{notice.DATA}}
 
-      💌{{earthy_love_words.DATA}}`,
+      {{moment_copyrighting.DATA}}
+      
+      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      `,
   },
   {
     id: "0002",

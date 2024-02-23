@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: "0001",
-    title: "亲爱的老婆！",
+    title: "好消息！好消息！特大好消息！",
     desc: `🗓️{{date.DATA}}
 
       💕今天是我们相识的第{{love_day.DATA}}天
@@ -23,14 +23,14 @@ const TEMPLATE_CONFIG = [
 
       🌇日落时间: {{sunset.DATA}}
 
-      温馨提示：{{holidaytts.DATA}}
+      温馨提示：{{holidaytts_1.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
       `,
   },
   {
     id: "0002",
-    title: "推送完成提醒",
+    title: "推送完成！",
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
       

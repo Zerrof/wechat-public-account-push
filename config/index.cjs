@@ -55,16 +55,16 @@ const USER_CONFIG = {
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     birthdayMessage: true,
   },
- /** 是否给文字设置多彩颜色, 和emoji不兼容 */
+  /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: true,
-  LITERARY_PREFERENCE: '',
+  LITERARY_PREFERENCE: "",
   PROVINCE: "四川",
   CITY: "成都",
   USERS: [
     {
       // 想要发送的人的名字
-      name: "亲爱的老婆！",
+      name: "祝你今天愉快,你明天的愉快留着我明天再祝",
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "PDU28470T39hIHTfI0wj692k8uKqKVfLYOSEWzArr",
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -73,17 +73,23 @@ const USER_CONFIG = {
       horoscopeDate: "",
       festivals: [
         {
-          type: '节日', name: '结婚纪念日', year: '2017', date: '05-01',
+          type: "节日",
+          name: "结婚纪念日",
+          year: "2017",
+          date: "05-01",
         },
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: "*生日",
-          name: "老婆",
+          name: "美少女",
           year: "1993",
           date: "09-12",
         },
         {
-          type: '生日', name: '赵沐晗', year: '2017', date: '10-31',
+          type: "生日",
+          name: "赵沐晗",
+          year: "2017",
+          date: "10-31",
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
       ],

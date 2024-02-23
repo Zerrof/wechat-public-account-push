@@ -37,19 +37,17 @@ const TEMPLATE_CONFIG = [
       // `
       `🗓️{{date.DATA}}
 
-      💕今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
+      💕今天是我们在一起的第{{love_day.DATA}}天
       
-      今日{{city.DATA}}天气☁️：{{tian_api_weather_weather_0.DATA}}
+      ☁️今日{{city.DATA}}天气：{{weather.DATA}}
 
-      温度🌡️: {{tian_api_weather_lowest_0.DATA}}-{{tian_api_weather_highest_0.DATA}}
+      🌡️温度: {{min_temperature.DATA}}-{{max_temperature.DATA}}
 
-      紫外线强度指数☀️: {{tian_api_weather_uv_index_0.DATA}}
+      🍃风向: {{wind_direction.DATA}}
 
-      穿衣指数👚: {{tian_api_weather_tips_0.DATA}}
+      💨风级: {{wind_scale.DATA}}
 
-      风向🍃: {{wind_direction.DATA}}
-
-      风级💨: {{wind_scale.DATA}}
+      {{notice.DATA}}
 
       💌{{earthy_love_words.DATA}}`,
   },

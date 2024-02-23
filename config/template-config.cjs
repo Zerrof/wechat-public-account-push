@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: "0001",
-    title: "好消息！好消息！特大好消息！",
+    title: "祝你今天愉快,你明天的愉快留着我明天再祝",
     desc: `🗓️{{date.DATA}}
 
       💕今天是我们相识的第{{love_day.DATA}}天

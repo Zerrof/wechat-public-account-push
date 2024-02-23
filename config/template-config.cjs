@@ -48,10 +48,16 @@ const TEMPLATE_CONFIG = [
       🍃风向: {{wind_direction.DATA}}
 
       💨风级: {{wind_scale.DATA}}
+      
+      💧湿度: {{shidu.DATA}}
 
-      {{notice.DATA}}
+      🌅日出时间: {{sunrise.DATA}}
 
-      {{moment_copyrighting.DATA}}
+      🌇日落时间: {{sunset.DATA}}
+
+      ❄️预防感冒提醒: {{ganmao.DATA}}
+
+      温馨提示：{{notice.DATA}} {{holidaytts.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
       `,

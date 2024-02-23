@@ -64,7 +64,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "好消息！好消息！特大好消息！",
+      name: "",
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "PDU28470T39hIHTfI0wj692k8uKqKVfLYOSEWzArr",
       // 使用微信测试号：你想对他发送的模板消息的模板ID

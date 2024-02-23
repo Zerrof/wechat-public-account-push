@@ -23,7 +23,7 @@ const TEMPLATE_CONFIG = [
 
       🌇日落时间: {{sunset.DATA}}
 
-      温馨提示：{{holidaytts_1.DATA}}
+      温馨提示：{{holidaytts.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
       `,

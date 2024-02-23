@@ -59,8 +59,8 @@ const USER_CONFIG = {
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: true,
   LITERARY_PREFERENCE: "",
-  PROVINCE: "四川",
-  CITY: "成都",
+  PROVINCE: "四川省",
+  CITY: "成都市",
   USERS: [
     {
       // 想要发送的人的名字
